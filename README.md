@@ -16,7 +16,7 @@ Run - ```bower install```
 
 Fire up Grunt Serve Task - ```grunt serve```
 
-That's it, now code away, and don't fuck it up!!
+That's it, now code away!
 
 ## Please read
 Don't ever commit the following stuff:
