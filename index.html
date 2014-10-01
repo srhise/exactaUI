@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>BaseUI - A Boilerplate for Nelson &amp; Sean Webapps</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://ia-nyc.com/wp-content/uploads/2013/10/favicon.png">
+
+    <!-- BaseUI has a default TypeKit We use. Right now it only will run on a server running on localhost -->
+    <script type="text/javascript" src="//use.typekit.net/slp0xbh.js"></script>
+    <script type="text/javascript">
+    try {
+        Typekit.load();
+    } catch (e) {}
+    </script>
+
+    <!-- Bootstrap -->
+    <link href="app/assets/stylesheets/frontend.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav id="main-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BaseUI</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link</a>
+                    </li>
+                    <li><a href="#">Link</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a>
+                            </li>
+                            <li><a href="#">Another action</a>
+                            </li>
+                            <li><a href="#">Something else here</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">One more separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a>
+                            </li>
+                            <li><a href="#">Another action</a>
+                            </li>
+                            <li><a href="#">Something else here</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div id="site-title">
+        <div class="container">
+            <h1 class="blog-title">Welcome to BaseUI</h1>
+            <p class="lead blog-description">A collection of UI examples using full skinnable and customizable components. The base for all future greatness and a true work in progress. You can find this code on <a href="https://github.com/seanwilkening/baseUI">GitHub</a>, if we'll let you.</p>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-8 blog-main">
+
+                <div class="blog-post">
+                    <h1>Base User Interface</h1>
+                    <hr/>
+
+
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h2 class="h2alt">Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <hr/>
+                    <span>
+                        <strong>Unordered Lists</strong>
+                    </span>
+                    <ul>
+                        <li>List Items</li>
+                        <li>List Items</li>
+                        <li>List Items</li>
+                        <li>Really Long List Item. senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</li>
+                        <li>List Items
+                            <ul>
+                                <li>Sublist Items</li>
+                                <li>Sublist Items</li>
+                                <li>Sublist Items</li>
+                            </ul>
+                        </li>
+                        <li>List Items</li>
+                        <li>List Items</li>
+                        <li>List Items</li>
+                    </ul>
+
+                    <hr/>
+                    <span class="block">
+                        <strong>Default Buttons</strong>
+                    </span>
+                    <a href="#" class="btn btn-default">Default Button</a>
+                    <a href="#" class="btn btn-primary">Primary Button</a>
+                    <a href="#" class="btn btn-success">Green Button</a>
+                    <a href="#" class="btn btn-warning">Orange Button</a>
+                    <a href="#" class="btn btn-info">Info Button</a>
+
+                    <hr/>
+
+                    <span class="block">
+                        <strong>Buttons in Loading State</strong>
+                    </span>
+                    <a href="#" class="btn btn-default loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Default Button</a>
+                    <a href="#" class="btn btn-primary loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Primary Button </a>
+                    <a href="#" class="btn btn-success loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Green Button </a>
+                    <a href="#" class="btn btn-warning loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Orange Button </a>
+                    <a href="#" class="btn btn-info loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Info Button </a>
+                     <hr/>
+                </div>
+                <!-- /.blog-main -->
+
+            </div>
+            <!-- /.row -->
+
+            <div class="col-md-4">
+                <div class="bs-docs-sidebar hidden-print affix-top" role="complementary">
+                    <h3>Quick Links</h3>
+                    <ul class="nav bs-docs-sidenav">
+                        <li>
+                            <a href="#">Components</a>
+                        </li>
+                        <li>
+                            <a href="#">Full Themes</a>
+                        </li>
+                        <li>
+                            <a href="#">Kendo Examples</a>
+                        </li>
+                        <li>
+                            <a href="#">Code Examples</a>
+                        </li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- TABS
+            <ul class="nav nav-tabs">
+              <li class="active">
+                <a href="#first" data-toggle="tab">
+                    <div class="text-small">manage your</div>
+                    <span class="text-uppercase">Settings</span>
+                </a>
+              </li>
+              <li>
+                <a href="#second" data-toggle="tab">
+                    <div class="text-small">awesome</div>
+                    <span class="text-uppercase">buttons</span>
+                    <span class="text-gray-dark">/</span>
+                    <span class="small text-gray-dark">click!</span>
+                </a>
+              </li>
+            </ul>
+             -->
+
+
+
+
+        </div>
+        <!-- /.container -->
+
+
+        <!-- ////////////////////////////////////////////  -->
+        <!-- AJAXIFIED BOOTSTRAP MODAL -->
+        <!-- ////////////////////////////////////////////  -->
+        <div class="modal fade" id="bsModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <a class="fnt-18 pull-right" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove"></span></a>
+                <h4 class="modal-title" id="modaltitle">Modal title</h4>
+              </div>
+                <div class="modal-body" id="bsmodalajaxtarget">
+                
+                    load ajax content here...
+                     
+                </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="app/assets/javascript/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"minortick"
+			],
+			[
+				"slider",
+				"slidervalue"
+			],
+			[
+				"bg-gra",
+				"bg-gray-lightest"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"bg",
+				"bg-white"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"daa",
+				"datatarget"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cent",
+				"center-block"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"r",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"clr-gray-li",
+				"clr-gray-lightest"
+			],
+			[
+				"clr-gray",
+				"clr-gray-lightest"
+			],
+			[
+				"search",
+				"searchbar"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/nedmac/web_projects/sane/app/assets/stylesheets/custommixins.less",
+			"settings":
+			{
+				"buffer_size": 39244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nedmac/web_projects/sane/app/assets/stylesheets/frontend.less",
+			"settings":
+			{
+				"buffer_size": 36005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nedmac/web_projects/sane/app/assets/pages/thankyou.html",
+			"settings":
+			{
+				"buffer_size": 1764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nedmac/web_projects/sane/index.html",
+			"settings":
+			{
+				"buffer_size": 8948,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nedmac/web_projects/sane/app/assets/pages/dash.html",
+		"/Users/nedmac/web_projects/sane/app/assets/javascript/dash.js",
+		"/Users/nedmac/web_projects/sane/index.html",
+		"/Users/nedmac/web_projects/sane/app/assets/pages/program.html",
+		"/Users/nedmac/web_projects/sane/app/assets/pages/forum.html",
+		"/Users/nedmac/web_projects/sane/app/assets/pages/checkout.html",
+		"/Users/nedmac/web_projects/sane/app/assets/stylesheets/custommixins.less",
+		"/Users/nedmac/web_projects/sane/app/assets/stylesheets/frontend.less",
+		"/Users/nedmac/web_projects/sane/app/assets/javascript/main.js",
+		"/Users/nedmac/web_projects/sane/app/assets/pages/dash-summary.html",
+		"/Users/nedmac/web_projects/sane/app/assets/stylesheets/variables.less",
+		"/Users/nedmac/web_projects/sane/app/assets/pages/letsgetstarted.html",
+		"/Users/nedmac/web_projects/sane/app/assets/javascript/letsgetstarted.js",
+		"/Users/nedmac/web_projects/sane/app/assets/javascript/forgot.js",
+		"/Users/nedmac/web_projects/sane/signin.html",
+		"/Users/nedmac/web_projects/sane/forgot.html",
+		"/Users/nedmac/web_projects/sane/app/assets/javascript/signup.js",
+		"/Users/nedmac/web_projects/sane/signup.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/route.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/stylesheets/frontend.less",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/rides.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/rides.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/streamlineicons/icons-reference.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/index.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/mapcontrols.js",
+		"/Users/nedmac/web_projects/logisticare/index.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/main.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/ridecontrols.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/map.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/map.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/lnavVehicles.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/stylesheets/custommixins.less",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/lnavVehicles.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/lnavRide.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/lnavRide.html",
+		"/Users/nedmac/Dropbox (IA)/IA-Nelson/Clients/WDD/Longs/source/HTML/cashierterminal/js/index.js",
+		"/Users/nedmac/Dropbox (IA)/IA-Nelson/Clients/MindsEye Solutions/source/HTML/tunnelvision_design/js/globalfunctions.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/rider.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/stylesheets/variables.less",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/route.js",
+		"/Users/nedmac/web_projects/logisticare/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/multiparty/test/fixture/http/workarounds/missing-hyphens2.http",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/routes.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/routecontrols.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/ridecontrols.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/pages/mapcontrols.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/routecontrols.js",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/routes.js",
+		"/Users/nedmac/Dropbox (IA)/IA-Nelson/Clients/WDD/Longs/source/HTML/admin/js/employeetime.js",
+		"/Users/nedmac/web_projects/logisticare/login.html",
+		"/Users/nedmac/Dropbox (IA)/IA-Nelson/Clients/WDD/Longs/source/HTML/admin/pages/employeetime.html",
+		"/Users/nedmac/web_projects/logisticare/app/assets/javascript/login.js",
+		"/Users/nedmac/web_projects/BaseUI/index.html",
+		"/Users/nedmac/web_projects/BaseUI/app/assets/stylesheets/frontend.less",
+		"/Users/nedmac/web_projects/BaseUI/app/assets/stylesheets/variables.less",
+		"/Users/nedmac/web_projects/BaseUI/app/assets/javascript/main.js",
+		"/Users/nedmac/web_projects/BaseUI/app/assets/stylesheets/custommixins.less",
+		"/Users/nedmac/web_projects/BaseUI/bower.json",
+		"/Users/nedmac/web_projects/BaseUI/app/assets/stylesheets/base.less",
+		"/Users/nedmac/web_projects/relevance/index.html",
+		"/Users/nedmac/web_projects/relevance/app/assets/stylesheets/frontend.less",
+		"/Users/nedmac/web_projects/relevance/article.html",
+		"/Users/nedmac/web_projects/relevance/article1.html",
+		"/Users/nedmac/web_projects/relevance/article2.html",
+		"/Users/nedmac/web_projects/relevance/app/assets/pages/article.html",
+		"/Users/nedmac/web_projects/relevance/app/assets/javascript/main.js",
+		"/Users/nedmac/web_projects/relevance/app/assets/pages/subscribe.html",
+		"/Users/nedmac/web_projects/relevance/app/assets/pages/teams.html",
+		"/Users/nedmac/web_projects/relevance/app/assets/pages/category.html",
+		"/Users/nedmac/web_projects/relevance/app/assets/stylesheets/custommixins.less",
+		"/Users/nedmac/web_projects/relevance/app/assets/stylesheets/variables.less",
+		"/Users/nedmac/web_projects/relevance/public/assets/javascript/frontend.js",
+		"/Users/nedmac/web_projects/relevance/app/assets/stylesheets/frontend.css",
+		"/Users/nedmac/web_projects/relevance/app/assets/stylesheets/base.less",
+		"/Users/nedmac/web_projects/relevance/bower_components/sticky/jquery.sticky.js",
+		"/Users/nedmac/web_projects/relevance/bower_components/bootstrap/less/mixins.less",
+		"/Users/nedmac/web_projects/relevance/app/assets/stylesheets/mixins.less",
+		"/Users/nedmac/web_projects/relevance/bower_components/bootstrap/less/variables.less",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/WDD/INUMC/Source/HTML/intranet/js/parsonages.js",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/Carmel Solutions/source/HTML/borrowerconnect_design/js/globalfunctions.js",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/WDD/NPCA/Inspection/source/HTML/js/subPageFunctions.js",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/WDD/Longs/source/HTML/admin/js/index.js",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/WDD/NPCA/Inspection/source/HTML/js/index.js",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/Digital Relevance/materials/iconic/font/iconic fill/iconic_fill_demo.html",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/Digital Relevance/materials/iconic/font/iconic fill/iconic_fill.css",
+		"/Users/nedmac/web_projects/relevance/app/assets/stylesheets/style.less",
+		"/Users/nedmac/web_projects/relevance/indexBK.html",
+		"/Users/nedmac/Dropbox/IA-Nelson/Clients/email_Bubba-MarkComm.html",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/utilitiesModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/css/custom.css",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/templates/conceptMapUniverse.html",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/conceptMapUniverseModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/documentUniverseModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/emailUniverseConversationsModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/emailUniverseDomainModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/emailUniverseParticipantModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/searchUniverseConceptModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/searchUniverseTermModule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/templates/itemslistcontrol.html",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/templates/uitems.html",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app/dataribbonmodule.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/main.js",
+		"/Users/nedmac/web_projects/tunnelvision_dev/scripts/templates/emailUniverse.html",
+		"/Users/nedmac/web_projects/tunnelvision_dev/index.html",
+		"/Users/nedmac/web_projects/tunnelvision_dev/login.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"getapp.html",
+			"letsgetstarted.html",
+			"variables.less, frontend.less, custommixins.less, index.html",
+			"variables.less, frontend.less, custommixins.less",
+			"lnavVehicles.html",
+			"map.js, map.html, frontend.less",
+			"map.js",
+			"frontend.less, map.html",
+			"frontend.less",
+			"routes.js",
+			"<open files>,<open folders>",
+			"<open files>",
+			"",
+			"/Users/nedmac/web_projects/relevance",
+			"/Users/nedmac/web_projects/tunnelvision_dev/",
+			"/Users/nedmac/web_projects/tunnelvision_dev/scripts/,<open files>",
+			"/Users/nedmac/web_projects/tunnelvision_dev/scripts/",
+			"/Users/nedmac/web_projects/tunnelvision_dev/scripts/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sanescore",
+			"bg-blue",
+			"<img src=\"img/",
+			"lnk0\nlnk-yellow",
+			"clr-white",
+			"clr-white\"",
+			"<img src=\"img/",
+			"clr-p",
+			"h6",
+			"		<",
+			"@saneAqua",
+			"Aqua",
+			" \n",
+			"btn-pb",
+			"@pb",
+			"vehcard",
+			"lnavhdr",
+			"tpnnavpin",
+			"tpmlist",
+			"tpmbodywrapper",
+			"lnavbodywrapper\nlnavbodywrapper\nlnavbodywrapper\ntpmbodywrapper",
+			"tpnnavtoggle",
+			"tplock",
+			"tpmenu",
+			"tpmenuContainer",
+			"vdash",
+			"actbtn-tpnav",
+			"#tpm",
+			"id=\"tpm",
+			"tpmhdr",
+			"tpmenuContainer",
+			"#vdash",
+			"vdashContainer",
+			"});\n",
+			"label",
+			"8.51",
+			"hours",
+			"Mon Sep 20 2014 16:31",
+			"clockout",
+			"Mon Sep 20 2014 04:11",
+			"clockin",
+			"lname",
+			"sprite",
+			"article footer",
+			"lorempixel.com/220/145",
+			"lorempixel.com/220/145/",
+			"\">\n",
+			"carous",
+			"carousel-example-generic",
+			"();}",
+			"input",
+			"place",
+			"H1",
+			"li.act",
+			"#social",
+			"btn:active",
+			"../images/",
+			"#f7f7f7",
+			"#333",
+			"@clr-gray-light;",
+			"1",
+			"@display",
+			"@transition",
+			"transition",
+			"collapse",
+			"gn-link",
+			"css",
+			".navbar",
+			"nav",
+			"../",
+			"navbar-fixed-top",
+			"@media",
+			"480",
+			"30px",
+			"face",
+			"flame",
+			"1180",
+			"kdvredraw",
+			"kendo",
+			"resize",
+			"color: \"#A5E0F2\"",
+			"kdvEmailVo",
+			"sent / recv",
+			"kdvsen",
+			"kdvtop",
+			"nicescroll",
+			"cursorwidth: 4",
+			"cursorwidth: 10",
+			"nicescroll",
+			"uitemhdr",
+			"<div class=\"uitemhdr\">",
+			"gap: 0.1,",
+			"kdv",
+			"type: \"bar\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<img src=\"app/assets/images/",
+			"",
+			"\"",
+			"<img src=\"app/assets/images/",
+			"p",
+			"@saneBlue",
+			"Blue",
+			"btn-sane",
+			"@sane",
+			"card vehcard",
+			"lnavpin",
+			"lnavlist",
+			"lnavbodywrapper",
+			"lnavtoggle",
+			"lnavlock",
+			"lnav",
+			"lnavContainer",
+			"mapWrapper",
+			"actbtn-lnav",
+			"#lnav",
+			"id=\"lnav",
+			"lnavhdr",
+			"lnavContainer",
+			"#mapWrapper",
+			"mapContainer",
+			"sit",
+			"dolor",
+			"ipsum",
+			"lorem",
+			"lorempixel.com/440/290",
+			"lorempixel.com/440/290/",
+			"authorsslider",
+			"@{imagepath}",
+			"@gray-lightest",
+			"@gray-darker;",
+			"@gray-light;",
+			"20px",
+			"color: \"#c5e2ff\"",
+			"cursorwidth: 6",
+			"cursorwidth: 4",
+			"gap: 0.5,",
+			"gap: 0.1,"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/nedmac/web_projects/sane/app/assets/stylesheets/custommixins.less",
+					"settings":
+					{
+						"buffer_size": 39244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37132,
+								37132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 47.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nedmac/web_projects/sane/app/assets/stylesheets/frontend.less",
+					"settings":
+					{
+						"buffer_size": 36005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32990,
+								32325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/nedmac/web_projects/sane/app/assets/pages/thankyou.html",
+					"settings":
+					{
+						"buffer_size": 1764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/nedmac/web_projects/sane/index.html",
+					"settings":
+					{
+						"buffer_size": 8948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4871,
+								4871
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1105.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"app/assets/javascript/index.js"
+			],
+			[
+				"rides.h",
+				"app/assets/pages/rides.html"
+			],
+			[
+				"route.h",
+				"app/assets/pages/route.html"
+			],
+			[
+				"route",
+				"app/assets/javascript/route.js"
+			],
+			[
+				"routes",
+				"app/assets/pages/routes.html"
+			],
+			[
+				"index.j",
+				"app/assets/javascript/index.js"
+			],
+			[
+				"mix",
+				"bower_components/bootstrap/less/mixins.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/nedmac/web_projects/sublimeprojectfiles/SANEWORDPRESS.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true
+}
