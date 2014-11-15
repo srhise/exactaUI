@@ -527,6 +527,12 @@ CUSTOM TABS
 .tab-content>.tab-pane {                            .bg-white; .b; border-color:#dde2e6; .p(30px); .m-t(-1px)}
 
 /* All Custom Stuff */
+
+body {
+  font-family:@font-family-serif;
+  font-weight:400;
+}
+
 #main-nav {
   margin-bottom:0px;
 }
@@ -537,34 +543,43 @@ CUSTOM TABS
   padding:50px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1200px) {
-                                                    .big-tabs li {
-                                                        width:180px;
-                                                        display:inline-block;
+    .big-tabs li {
+        width:180px;
+        display:inline-block;
 
-                                                    }
-                                                    .big-tabs li a {
-                                                        padding:30px 30px 20px;
-                                                    }
+    }
+    .big-tabs li a {
+        padding:30px 30px 20px;
+    }
 }
 
+#main-nav .dropdown-toggle {
+  padding:2px 5px;
+  line-height: 25px;
+  margin-top:10px;
+  margin-left:10px;
+  font-size:14px;
+  color:@blue;
+}
 
+#main-nav .dropdown-toggle:hover {
+  border:1px solid @gray;
+  padding:1px 4px;
+  box-shadow: 1px 1px 1px #ddd;
+}
+
+#main-nav .dropdown-menu {
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    display: none;
+    min-height: 500px;
+    left: -140px;
+    width: 230px;
+    border: none;
+    background-color: #F8F8F8;
+}
 
 
 
