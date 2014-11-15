@@ -18,6 +18,7 @@
   "homepage": "https://github.com/srhise/relevance",
   "devDependencies": {
     "grunt": "~0.4.2",
+    "grunt-sass": "~0.14.0",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-less": "~0.10.0",
     "grunt-contrib-watch": "~0.5.3",

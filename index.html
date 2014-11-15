@@ -7,22 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
-    <title>BaseUI - A Boilerplate for Nelson &amp; Sean Webapps</title>
+    <title>Exacta UI - User Interface Framework</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="http://ia-nyc.com/wp-content/uploads/2013/10/favicon.png">
+    <link rel="shortcut icon" href="app/assets/images/favicon.ico">
 
     <!-- BaseUI has a default TypeKit We use. Right now it only will run on a server running on localhost -->
-    <script type="text/javascript" src="//use.typekit.net/slp0xbh.js"></script>
-    <script type="text/javascript">
-    try {
-        Typekit.load();
-    } catch (e) {}
-    </script>
+    <script src="//use.typekit.net/slp0xbh.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 
     <!-- Bootstrap -->
     <link href="app/assets/stylesheets/frontend.css" rel="stylesheet">
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="bower_components/platform/platform.js"></script>
+    <!-- build:vulcanized elements/elements.vulcanized.html -->
+    <link rel="import" href="elements/elements.html">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,39 +43,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">BaseUI</a>
+                <a href="#" style="line-height:40px;"><img width="120" src="app/assets/images/logo.svg"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link</a>
-                    </li>
-                    <li><a href="#">Link</a>
-                    </li>
+                
+                <ul id="main-nav" class="nav navbar-nav navbar-left">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a>
-                            </li>
-                            <li><a href="#">Another action</a>
-                            </li>
-                            <li><a href="#">Something else here</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li><a href="#">One more separated link</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle"><i class="fa fa-bars"></i>&nbsp;<i class="fa fa-caret-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a>
                             </li>
@@ -98,7 +74,7 @@
     <div id="site-title">
         <div class="container">
             <div class="hero-unit">
-            <h1 class="blog-title">Welcome to Exacta UI</h1>
+            <h1 class="blog-title">starter lab.</h1>
             <p class="lead blog-description">This is the base starter project used at Exacta to bootstrap our frontend development process.  You can find this code on <a href="https://github.com/srhise/exactaUI">GitHub</a>. This project uses a <a href="http://getbootstrap.com/">Bootstrap 3.0</a>, <a href="http://lesscss.org/">LESS</a>, <a href="http://gruntjs.com/">Grunt</a>, <a href="http://bower.io/">Bower</a>, <a href="https://www.npmjs.org/">npm</a>, and <a href="http://nodejs.org/">NodeJS</a>.</p>
             </div>
         </div>
@@ -107,13 +83,12 @@
 
         <div class="row">
 
-            <div class="col-sm-8 blog-main">
+            <div class="col-sm-12 blog-main">
 
                 <div class="blog-post">
 
                     <h1>Heading 1</h1>
                     <h2>Heading 2</h2>
-                    <h2 class="h2alt">Heading 2</h2>
                     <h3>Heading 3</h3>
                     <h4>Heading 4</h4>
                     <h5>Heading 5</h5>
@@ -155,61 +130,24 @@
                     <hr/>
 
                     <span class="block">
-                        <strong>Buttons in Loading State</strong>
+                        <strong>Default Buttons</strong>
                     </span>
-                    <a href="#" class="btn btn-default loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Default Button</a>
-                    <a href="#" class="btn btn-primary loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Primary Button </a>
-                    <a href="#" class="btn btn-success loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Green Button </a>
-                    <a href="#" class="btn btn-warning loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Orange Button </a>
-                    <a href="#" class="btn btn-info loading"  data-loading-text="Loading... <i class='fa fa-spinner spinning'></i>">Info Button </a>
-                     <hr/>
+                    <a href="#" class="btn btn-default">Default Button</a>
+                    <a href="#" class="btn btn-primary">Primary Button</a>
+                    <a href="#" class="btn btn-success">Green Button</a>
+                    <a href="#" class="btn btn-warning">Orange Button</a>
+                    <a href="#" class="btn btn-info">Info Button</a>
+
+                    <hr/>
+
+                   <yo-greeting></yo-greeting>
+                    <p>You now have</p>
+                    <yo-list></yo-list>
                 </div>
                 <!-- /.blog-main -->
 
             </div>
             <!-- /.row -->
-
-            <div class="col-md-4">
-                <div class="bs-docs-sidebar hidden-print affix-top" role="complementary">
-                    <h3>Quick Links</h3>
-                    <ul class="nav bs-docs-sidenav">
-                        <li>
-                            <a href="#">Components</a>
-                        </li>
-                        <li>
-                            <a href="#">Full Themes</a>
-                        </li>
-                        <li>
-                            <a href="#">Kendo Examples</a>
-                        </li>
-                        <li>
-                            <a href="#">Code Examples</a>
-                        </li>
-                        
-
-                    </ul>
-                </div>
-            </div>
-
-
-            <!-- TABS
-            <ul class="nav nav-tabs">
-              <li class="active">
-                <a href="#first" data-toggle="tab">
-                    <div class="text-small">manage your</div>
-                    <span class="text-uppercase">Settings</span>
-                </a>
-              </li>
-              <li>
-                <a href="#second" data-toggle="tab">
-                    <div class="text-small">awesome</div>
-                    <span class="text-uppercase">buttons</span>
-                    <span class="text-gray-dark">/</span>
-                    <span class="small text-gray-dark">click!</span>
-                </a>
-              </li>
-            </ul>
-             -->
 
 
 
@@ -238,11 +176,11 @@
         </div><!-- /.modal -->
         
 
-
-
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/velocity/velocity.min.js"></script>
+        <script src="bower_components/velocity/velocity.ui.min.js"></script>
 
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="app/assets/javascript/main.js"></script>

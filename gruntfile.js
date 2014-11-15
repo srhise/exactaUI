@@ -1,8 +1,14 @@
 module.exports = function(grunt) {
 
-  //Initializing the configuration object
-    grunt.initConfig({
+    //Initializing the configuration object
+    // configurable paths
+    var yeomanConfig = {
+      app: 'app',
+      dist: 'dist'
+    };
 
+    grunt.initConfig({
+    yeoman: yeomanConfig,
       // Task configuration
     less: {
         development: {
@@ -30,7 +36,7 @@ module.exports = function(grunt) {
     },
     connect: {
       options: {
-        port: 9000,
+        port: 8000,
         // change this to '0.0.0.0' to access the server from outside
         hostname: '0.0.0.0',
         livereload: 35729
@@ -84,8 +90,64 @@ module.exports = function(grunt) {
         tests: {
           files: ['app/controllers/*.php','app/models/*.php'],  //the task will run only when you save files in this location
           tasks: ['phpunit']
+        },
+        sass: {
+          files: [
+            '<%= yeoman.app %>/styles/{,*/}*.{scss,sass}',
+            '<%= yeoman.app %>/elements/{,*/}*.{scss,sass}'
+          ],
+          tasks: ['sass:server', 'autoprefixer:server']
         }
+      },
+      // Compiles Sass to CSS and generates necessary files if requested
+    sass: {
+      options: {
+        sourceMap: true,
+        includePaths: ['bower_components']
+        },
+      dist: {
+        options: {
+          style: 'compressed'
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.app %>',
+          src: ['styles/{,*/}*.{scss,sass}', 'elements/{,*/}*.{scss,sass}'],
+          dest: '<%= yeoman.dist %>',
+          ext: '.css'
+        }]
+      },
+      server: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.app %>',
+          src: ['styles/{,*/}*.{scss,sass}', '../elements/{,*/}*.{scss,sass}'],
+          dest: '.tmp',
+          ext: '.css'
+        }]
       }
+    },
+    autoprefixer: {
+      options: {
+        browsers: ['last 2 versions']
+      },
+      server: {
+        files: [{
+          expand: true,
+          cwd: '.tmp',
+          src: '**/*.css',
+          dest: '.tmp'
+        }]
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.dist %>',
+          src: ['**/*.css', '!bower_components/**/*.css'],
+          dest: '<%= yeoman.dist %>'
+        }]
+      }
+    }
     });
   
   
@@ -93,6 +155,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-connect');
   // Task definition
   grunt.registerTask('default', ['watch']);
@@ -104,6 +167,7 @@ module.exports = function(grunt) {
 
     grunt.task.run([
       'less',
+      'sass',
       'connect:livereload',
       'watch'
     ]);
